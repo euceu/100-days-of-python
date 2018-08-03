@@ -9,19 +9,6 @@ import random
 
 screen_width = 100
 
-
-#### Player Setup ####
-
-"""class player:
-    def __init__(self):
-        self.name = ""
-        self.sanity = 0
-        self.location = "start"
-
-
-myPlayer = player()"""
-
-
 #### title screen ####
 
 def title_screen_selection():
@@ -148,6 +135,7 @@ def ch1_option_check_body():
     else:
         ch1_option_check_body()
 
+        ### intro ###
 
 def ch1_intro():
     print('***** The Rain *****                           ')
