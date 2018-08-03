@@ -57,7 +57,15 @@ def help_menu():
     print('                                ')
     print('         !enjoy the game!       ')
     print('                                ')
+    print("   back                 start   ")
     print('´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´')
+    exit_help_menu = input("> ")
+    if exit_help_menu == "back":
+        title_screen()
+    elif exit_help_menu == "start":
+        start_game()
+    else:
+        help_menu()
 
 
 #### choices #####
